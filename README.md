@@ -121,7 +121,7 @@ The above code gives the following output:
 ```
 
 ## MANAGER
-!!! You can also use the pre-written manager in the main.c file to see how things works. !!!
+!!! You can also use the pre-written manager in the main.c file to see how things works. !!!<br>
 The realease is using the manager in main.c
 
 ## Contributing
