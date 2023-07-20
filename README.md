@@ -31,6 +31,27 @@ This implementation provides basic operations to create, modify, and print a dou
 - Remove the last number from the list (pop).
 - Delete a number at a specific position from the list.
 
+## Entities
+
+The list has a controller and contains items like described below:
+
+```c
+struct ListItem { 
+     double value; //The number contained in the item 
+     LI *next; //point to the following item in the list ; null if current is last 
+     LI *prev; //point to the previous item in the list ; null if current is first 
+ }; 
+  
+ typedef struct ChainedList CL; 
+  
+ struct ChainedList { 
+     LI *first, *last; // point respectively to the first and last item in the list; null if there is no element 
+     int count; //the number of items in the list 
+ }; 
+ 
+
+```
+
 ## Functions
 
 The following functions are available for interacting with the double linked list:
