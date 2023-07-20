@@ -128,4 +128,4 @@ The realease is using the manager in main.c
 Contributions to this project are welcome! If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
 
 ## License
-This project is licensed under the MIT License. Feel free to use and modify the code as per the terms of the license.
+This project is licensed under the GNU General Public License v3.0 License. Feel free to use and modify the code as per the terms of the license.
