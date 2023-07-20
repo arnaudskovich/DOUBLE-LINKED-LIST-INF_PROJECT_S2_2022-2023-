@@ -65,16 +65,16 @@ git clone https://github.com/arnaudskovich/DOUBLE-LINKED-LIST-INF_PROJECT_S2_202
 2. Include the `numbers.h` header file in your C code:
 
 ```c
-#include "numbers.h"
+#include "nombres.h"
 ```
 3. Compile your code along with the numbers.c source file:
 ```bash
-gcc your_code.c numbers.c -o your_executable
+gcc your_code.c Nombres.c -o your_executable
 ```
 4. Start using the functions available in the numbers.h header file to interact with the double linked list. For example:
 ```c
 #include <stdio.h>
-#include "numbers.h"
+#include "nombres.h"
 
 int main() {
     // Create a new double linked list
