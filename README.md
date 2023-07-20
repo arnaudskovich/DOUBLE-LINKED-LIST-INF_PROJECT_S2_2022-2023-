@@ -122,6 +122,7 @@ The above code gives the following output:
 
 ## MANAGER
 !!! You can also use the pre-written manager in the main.c file to see how things works. !!!
+The realease is using the manager in main.c
 
 ## Contributing
 Contributions to this project are welcome! If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
