@@ -8,6 +8,7 @@ This repository contains a simple implementation of a double linked list for num
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
+- [Entities](#entities)
 - [Manager](#manager)
 - [Functions](#functions)
 - [Contributing](#contributing)
@@ -33,7 +34,7 @@ This implementation provides basic operations to create, modify, and print a dou
 
 ## Entities
 
-The list has a controller and contains items like described below:
+The list has a controller named `ChainedList` alias `CL` and contains `ListItem`s alias `LI` like described below:
 
 ```c
 struct ListItem { 
