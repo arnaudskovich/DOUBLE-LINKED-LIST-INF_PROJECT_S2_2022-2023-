@@ -37,6 +37,8 @@ This implementation provides basic operations to create, modify, and print a dou
 The list has a controller named `ChainedList` alias `CL` and contains `ListItem`s alias `LI` like described below:
 
 ```c
+typedef struct ListItem LI; 
+ 
 struct ListItem { 
      double value; //The number contained in the item 
      LI *next; //point to the following item in the list ; null if current is last 
